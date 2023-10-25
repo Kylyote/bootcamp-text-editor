@@ -21,7 +21,7 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: "index.html",
+        template: "./index.html",
         title: "Text Edit Webpack",
       }),
       new MiniCssExtractPlugin(),
@@ -54,7 +54,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: ["style-loader", "css-loader"],
+          use: [MiniCssExtractPlugin.loader, "css-loader"],
         },
         {
           test: /\.m?js$/,
