@@ -26,6 +26,7 @@ if (typeof editor === "undefined") {
 // Check if service workers are supported
 if ("serviceWorker" in navigator) {
   // register workbox service worker
+  // This name for the Workbox needs to match the name under the plugins section in webpack.config.js
   const workboxSW = new Workbox("/src-sw.js");
   workboxSW.register();
 } else {
