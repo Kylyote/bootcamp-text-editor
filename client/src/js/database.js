@@ -33,8 +33,12 @@ export const getDb = async () => {
   const store = tx.objectStore("jate");
   const request = store.getAll();
   const result = await request;
+  // console.log(JSON.stringify(result));
+  // console.dir(result);
+  // result.forEach((element) => console.log(element.content));
   console.log(`Everything in the DB: ${result}`);
-  return result;
+  // Need to add .content after result to get the array the data is stored in
+  return result.content;
 };
 
 initdb();
