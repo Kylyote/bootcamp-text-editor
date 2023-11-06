@@ -37,8 +37,8 @@ export const getDb = async () => {
   // console.dir(result);
   // result.forEach((element) => console.log(element.content));
   console.log(`Everything in the DB: ${result}`);
-  // Need to add .content after result to get the array the data is stored in
-  return result.content;
+  // Need to add .content after result to get the array the data is stored in. Or return result.content can just be deleted and that works as well. Why? I don't know.
+  // return result.content;
 };
 
 initdb();
