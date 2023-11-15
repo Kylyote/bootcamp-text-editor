@@ -5,7 +5,7 @@ const header = `
  __  / / /| | / / / __/                   /          \\
 / /_/ / ___ |/ / / /___                \\( ﾐ  ⌒ ● ⌒ ﾐ)/
  ____/_/  |_/_/ /_____/                GREAT GOOGLY MOOGLEY
-just another text editor              IT'S ALL GONE TO SHIT!
+just another text editor               IT'S ALL WORKING NOW!
 */                          
 `;
 

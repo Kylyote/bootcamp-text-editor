@@ -50,6 +50,10 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
 
+## Example Picture
+
+![Alt text](./assets/img/image.png)
+
 ## Credits
 
 - Chelsea Wagner -https://github.com/caf62219 - starting code and general setup
@@ -60,6 +64,6 @@ THEN I should have proper build scripts for a webpack application
 ## Links:
 
 - Link to repo:
-  https://github.com/Kylyote/bootcamp-social-api
+  https://github.com/Kylyote/bootcamp-text-editor
 - Link to Heroku deploy:
   https://bootcamp-simple-text-editor-b9bb1526f0ea.herokuapp.com/
